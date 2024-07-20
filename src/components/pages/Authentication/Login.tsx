@@ -29,10 +29,10 @@ const Login: React.FC = () => {
                 </Button>
               </div>
               <div className="text-center mt-3">
-                <Link to="/forgot-password">Forgot Password?</Link>
+                <Link to="/bimbel-coba/forgot-password">Forgot Password?</Link>
               </div>
               <div className="text-center mt-2">
-                <Link to="/register">Don't have an account? Register</Link>
+                <Link to="/bimbel-coba/register">Don't have an account? Register</Link>
               </div>
             </Form>
           </Col>
@@ -40,7 +40,7 @@ const Login: React.FC = () => {
             <div>
               <h2>Welcome to login</h2>
               <p>Don't have an account?</p>
-              <Link to="/register">
+              <Link to="/bimbel-coba/register">
                 <Button variant="light" className="register-button">
                   Sign Up
                 </Button>

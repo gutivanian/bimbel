@@ -59,7 +59,7 @@ const Register: React.FC = () => {
             <div>
               <h2>Join Us</h2>
               <p>Already have an account?</p>
-              <Link to="/login">
+              <Link to="/bimbel-coba/login">
                 <Button variant="light" className="login-button">
                   Login
                 </Button>

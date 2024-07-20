@@ -29,7 +29,7 @@ const NavigationBar: React.FC = () => {
             </Button>
           </Form>
           <Nav>
-            <Nav.Link as={Link} to="/login">Login</Nav.Link> {/* Use Link for Login */}
+            <Nav.Link as={Link} to="/bimbel-coba/login">Login</Nav.Link> {/* Use Link for Login */}
           </Nav>
         </Navbar.Collapse>
       </Container>
