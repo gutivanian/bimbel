@@ -1,0 +1,38 @@
+.testimonials {
+    padding: 2rem 0;
+    background-color: #f9f9f9;
+}
+
+.testimonial-item {
+    margin-bottom: 2rem;
+}
+
+.testimonial-item .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-item .card:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-item .card-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.testimonial-item .card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .testimonial-item .card-title {
+        font-size: 1.1rem;
+    }
+
+    .testimonial-item .card-text {
+        font-size: 0.9rem;
+    }
+}

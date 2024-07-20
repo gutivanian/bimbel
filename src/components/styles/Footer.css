@@ -1,0 +1,15 @@
+.footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.footer .container {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .footer .container {
+        font-size: 0.9rem;
+    }
+}
